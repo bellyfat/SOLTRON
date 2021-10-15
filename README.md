@@ -38,7 +38,7 @@ conda install -c anaconda tensorflow-gpu
 pip install -r requirements.txt
 python rl_simulation.py
 ```
-# API usage
+## PySerum API usage
 We first convert the the real-time **bid and ask** price of SOL-USDT from **Pyserum**, to **OHLC** using pandas and combined with bitnex api to get more accurate result. We made a lambda function to do the job for us. When ever a get request implemented on the API gateway, the lambda will trigger and upload the csv to AWS S3. Which then used by the above script.
 
 <img src="/screenshots/lambda.png" width="640" />
