@@ -16,6 +16,7 @@ import dashboard
 import threading
 import requests
 import json
+import wget
 import pandas as pd
 from datetime import datetime,timedelta
 ds = dashboard.DashboardServer()
@@ -27,7 +28,6 @@ registry = {}
 from pyserum.connection import conn
 from pyserum.market import Market
 import pandas as pd 
-from datetime import datetime
 import statistics
 cc = conn("https://api.mainnet-beta.solana.com/")
 market_address = "HWHvQhFmJB3NUcu1aihKmrKegfVxBEHzwVX6yZCKEsi1" # Address for SOL/USDT
@@ -39,8 +39,14 @@ def extract_bid():
     # Load the given market
     market = Market.load(cc, market_address)
     asks = market.load_asks()
+    # Show all current ask order
+
+
+
     # Show all current bid order
+
     raw_bids = market.load_bids()
+
     tmp = pd.DataFrame()
     bids = []
     for bid in raw_bids:
@@ -194,90 +200,14 @@ AAPL = Instrument('AAPL', 2, 'Apple stock')
 MSFT = Instrument('MSFT', 2, 'Microsoft stock')
 TSLA = Instrument('TSLA', 2, 'Tesla stock')
 AMZN = Instrument('AMZN', 2, 'Amazon stock')
-class get_binance_data:
-    
-
-        '''
-        It takes in 5 arguments
-        symbol: Symbol for the cryptocurrency, like SOLUSDT denotes Solana Tether coin 
-        Tether coin is pegged at $1, hence same as USD
-        interval: It scrapes data for the specified interval, like 1h is for one hour
-        start_time: For start time
-        end_time: For end time
-        limit: Number of data is scrape at an instant for rate limit
-        '''
-        def __init__(self,symbol:str,interval:str,start_time:str,end_time:str,limit:str):
-            self.url = "https://api.binance.com/api/v3/klines"
-
-            startTime = datetime.strptime(start_time, '%Y-%m-%d-%H')
-            endTime = datetime.strptime(end_time, '%Y-%m-%d-%H')
-
-            self.start_time = self.stringify_dates(startTime)
-            self.end_time = self.stringify_dates(endTime)
-            self.symbol = symbol
-            self.interval = interval
-            self.limit = limit
-
-        def stringify_dates(self,date:datetime):
-            return str(int(date.timestamp()*1000))
-
-        def get_binance_bars(self,last_datetime):
-            req_params = {"symbol": self.symbol, 'interval': self.interval,
-                        'startTime': last_datetime, 'endTime': self.end_time, 'limit': self.limit}
-            # For debugging purposes, uncomment these lines and if they throw an error
-            # then you may have an error in req_params
-            # r = requests.get(self.url, params=req_params)
-            # print(r.text) 
-            df = pd.DataFrame(json.loads(requests.get(self.url, params=req_params).text))
-            if (len(df.index) == 0):
-                return None
-
-            df = df.iloc[:,0:6]
-            df.columns = ['datetime','open','high','low','close','volume']
-
-            df.open = df.open.astype("float")
-            df.high = df.high.astype("float")
-            df.low = df.low.astype("float")
-            df.close = df.close.astype("float")
-            df.volume = df.volume.astype("float")
-
-            # No stock split and dividend announcement, hence close is same as adjusted close
-            #df['adj_close'] = df['close']
-
-            df['datetime'] = [datetime.fromtimestamp(
-                x / 1000.0) for x in df.datetime
-            ]
-            df.index = [x for x in range(len(df))]
-            return df
-
-        def dataframe_with_limit(self):
-            df_list = []
-            last_datetime = self.start_time
-            while True:
-                new_df = self.get_binance_bars(last_datetime)
-                if new_df is None:
-                    break
-                df_list.append(new_df)
-                last_datetime = max(new_df.datetime) + timedelta(days=1)
-                last_datetime = self.stringify_dates(last_datetime)
-
-            final_df = pd.concat(df_list)
-            date_value = [x.strftime('%Y-%m-%d-%H') for x in final_df['datetime']]
-            final_df.insert(0,'date',date_value)
-            final_df.drop('datetime',inplace=True,axis=1)
-
-            return final_df
-
-
 
 def build_env():
     df1 = extract_bid()
-    today = "{}-{}-{}-{}".format(now.year, now.month, now.day, now.hour)
-    print("today is: ",today)
-    hist_data = get_binance_data('SOLUSDT','1h','2021-09-03-12',today,'1000') # From september 03 to today, 2021. The bid price for September 03 is around 140+ for the first time, which means the bid price variable that we will provide in the environment won't be a noise.
-    final_df = hist_data.dataframe_with_limit()
-    final_df.to_csv('Solana.csv')
-    data = pd.read_csv('Solana.csv',index_col=0)
+    ## Using AWS lambda function to upload the csv to AWS S3 and downlod it 
+    response = requests.get("https://trudmbc2w0.execute-api.ap-south-1.amazonaws.com/default/solanaohlcv")
+    # download the csv file from AWS S3
+    wget.download("https://solanaai.s3.ap-south-1.amazonaws.com/Solana.csv")
+    
 
 
     def rsi(price: Stream[float], period: float) -> Stream[float]:
