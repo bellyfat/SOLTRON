@@ -17,6 +17,7 @@
 
 
 ## Running the RL
+**Tested on GTX 1650 Ti Nvidia GPU**
 Install Anaconda python : https://www.anaconda.com/products/individual
 RUN
 
