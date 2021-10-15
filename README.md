@@ -1,6 +1,9 @@
 # SOLTRON
-## What is SOLTRON
+
 <img src="/screenshots/soltron_logo.png" width="640" />
+
+## What is SOLTRON
+
 **SOLTRON is an Artificial General Intelligence, build on top of SOLANA and project serum**
 
 <img src="/screenshots/main.png" width="640" />
