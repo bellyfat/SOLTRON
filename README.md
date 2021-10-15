@@ -41,9 +41,9 @@ pip install -r requirements.txt
 python rl_simulation.py
 ```
 ## PySerum API usage
-We first convert the the real-time **bid and ask** price of SOL-USDT from **Pyserum**, to **OHLC** using pandas and combined with bitnex api to get more accurate result. We made a lambda function to do the job for us. When ever a get request implemented on the API gateway, the lambda will trigger and upload the csv to AWS S3. Which then used by the above script.
+We first convert the the data of SOL-USDT from **Pyserum** which is a client library for interacting with the Project Serum DEX, to **OHLCV** using pandas. We made a lambda function to do the job for us. When ever a GET request implemented on the API gateway, the lambda will trigger and upload the csv to AWS S3. Which then used by the above script.
 
-<img src="/screenshots/lambda.png" width="640" />
+<img src="/screenshots/lambda_api.png" width="640" />
 
 The rectangle portion shows the usage of PySerum API from SERUM that uses SOLANA and SERUM DEX. The real time data is send as a data feeder to the environment.
 
