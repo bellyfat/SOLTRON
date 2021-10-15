@@ -9,6 +9,11 @@
 1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
 <img src="/screenshots/1.png" width="640" />
 
+<img src="/screenshots/agent2.png" width="640" />
+
+<img src="/screenshots/agent3.png" width="640" />
+
+
 2. **The Reinforcement learning uses tensortrade API which is an opensource API for Deep Reinforcement learning simulation of trading environment, it uses Solana API from Serum, to get the real-time bid values of SOL-USDT and other variables, which includes the OHLCV historical data of SOL-USDT trade, portfolio of coins, reward and action schemes to build an environment and simulate the trade so that a trader can understand the risk before the actual trading. Like I said earlier, the Dash app URL then send back to the conversational AI API for better query response.**
 
 <img src="/screenshots/trade_env.png" width="640" />
@@ -53,8 +58,13 @@ In here we can see the
 **Due to higher charge on the EC2 instance we had stopped the instance, but you can run the Google colab notebook to get the same results**
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdKC2mUZN9Ov6fmdoOYbLQH4MhKyKwYr?usp=sharing)
-
 <img src="/screenshots/colab.png" width="640" />
+
+<img src="/screenshots/agent1.png" width="640" />
+
+App link Link : http://ec2-13-234-110-244.ap-south-1.compute.amazonaws.com/
+
+I may stop the AWS EC2 instance due to the instance charge- Uses GPU(TESLA K80 )- Mail me if needed to test
 
 ## GitHub Repo for cusotm deployment as a docker
 Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is limited]
