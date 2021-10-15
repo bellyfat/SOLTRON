@@ -76,11 +76,13 @@ I may stop the AWS EC2 instance due to the instance charge- Mail me if needed to
 
 ### Run app in local system
 
-<img src="/screenshots/agent3.png" width="640" />
-
 ```sh
 python app.py
 ```
+
+<img src="/screenshots/agent3.png" width="640" />
+
+
 
 ## GitHub Repo for cusotm deployment as a docker
 
