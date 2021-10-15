@@ -4,8 +4,11 @@
 
 SOLTRON is an Artificial General Intelligence, build on top of SOLANA and project serum. It consists of two integrated solutions.
   <img src="/screenshots/1.png" width="480" />
+  
 1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
+
 ![alt text](https://github.com/kishorkuttan/SOLTRON/blob/master/screenshots/drl.png)
+
 2. **The Reinforcement learning uses tensortrade API which is an opensource API for Deep Reinforcement learning simulation of trading environment, it uses Solana API from Serum, to get the real-time bid values of SOL-USDT and other variables, which includes the OHLCV historical data of SOL-USDT trade, portfolio of coins, reward and action schemes to build an environment and simulate the trade so that a trader can understand the risk before the actual trading. Like I said earlier, the Dash app URL then send back to the conversational AI API for better query response.**
 
 
