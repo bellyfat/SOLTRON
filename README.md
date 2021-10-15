@@ -111,7 +111,7 @@ The integrated AI system, that communicates between the trading simulation, resu
 <img src="/screenshots/indian_express.png" width="480" />
 
 2. Our team also won 3rd prize in the OpenCV AI competition 2021 at the regional level, which is an international AI competition celebrating OpenCV's 20th anniversary. we also among the 
-World's biggest spatial AI competition with Prizes worth $400K and Worldwide competition with global and regional winners. We had the latest implementation of our AI agent on the AI quadruped agriculture Robot API. Winner announcement Link: https://opencv.org/opencv-ai-competition-2021/. The AI robot also won in the Agri India Hackathon organized by the Government of India and Pusa Krishi and we were one among the 11 startups in their 2021 cohort. **Link**:https://blog.mygov.in/winner-announcement-of-agri-india-hackathon/
+World's biggest spatial AI competition with Prizes worth $400K and Worldwide competition with global and regional winners. We had the latest implementation of our AI agent on the AI quadruped agriculture Robot API. Winner announcement Link: https://opencv.org/opencv-ai-competition-2021/. The AI robot also won in the Agri India Hackathon organized by the Government of India and Pusa Krishi and we were one among the 11 startups form all across India, in their 2021 cohort. **Link**:https://blog.mygov.in/winner-announcement-of-agri-india-hackathon/
 Github Link to Agri robot: click [here](https://github.com/kishorkuttan/AI-Quadruped-Robot-For-Agriculture).
 
 <img src="/screenshots/hackathon.png" width="480" />
