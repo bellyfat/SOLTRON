@@ -13,6 +13,13 @@
 
 <img src="/screenshots/trade_env.png" width="640" />
 
+<img src="/screenshots/main_api.png" width="640" />
+
+
+<img src="/screenshots/main_feed.png" width="640" />
+
+
+
 
 ## Running the RL
 ```sh
@@ -33,7 +40,9 @@ In here we can see the
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdKC2mUZN9Ov6fmdoOYbLQH4MhKyKwYr?usp=sharing)
 
+<img src="/screenshots/colab.png" width="640" />
 
+## GitHub Repo for cusotm deployment as a docker
 Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is limited]
 
 
