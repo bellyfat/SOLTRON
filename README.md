@@ -21,7 +21,7 @@
 
 2. **The Reinforcement learning uses tensortrade API which is an opensource API for Deep Reinforcement learning simulation of trading environment, it uses Solana API from Serum, to get the real-time bid values of SOL-USDT and other variables, which includes the OHLCV historical data of SOL-USDT trade, portfolio of coins, reward and action schemes to build an environment and simulate the trade so that a trader can understand the risk before the actual trading. Like I said earlier, the Dash app URL then send back to the conversational AI API for better query response.**
 
-<img src="/screenshots/trade_env.png" width="640" />
+<img src="/screenshots/env.png" width="640" />
 
 
 ## Running the RL
@@ -38,6 +38,11 @@ conda install -c anaconda tensorflow-gpu
 pip install -r requirements.txt
 python rl_simulation.py
 ```
+# API usage
+We first convert the bid and ask price of SOL-USDT from Pyserum to OHLC using pandas and combined with bitnex api to get more accurate result. We made a lambda function to do the job for us. When ever a get request implemented on the API gateway, the lambda will trigger and upload the csv to AWS S3. Which then used by the above script.
+
+<img src="/screenshots/lambda.png" width="640" />
+
 The rectangle portion shows the usage of PySerum API from SERUM that uses SOLANA and SERUM DEX. The real time data is send as a data feeder to the environment.
 
 <img src="/screenshots/main_api.png" width="640" />
