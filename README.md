@@ -80,3 +80,20 @@ Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is lim
 6.    Trading basic terminologies like ask, bid, spread, MACD, etc. The bot can understand very complex sentences, and the bot has a specific persona to answer them. The conversation can be carried for a long time without, any distraction from the context.
 ## How it helps the Solana and the crypto community
 The integrated AI system, that communicates between the trading simulation, results to a large internet search-based language model, which is very similar to GPT-3, but unlike GPT-3 with time frozen data, this conversational agent learns from the, trading data, and internet data. This will revolutionize the trading and helps new traders as well as, master traders to achieve great heights in their journey. The AI mentor will help you to make better decision for Solana network, since we only focused on the historical data of SOL and its supporting documents as URL.
+
+## What is  ParlAI
+<img src="https://parl.ai/static/img/icon.png" width="640" />
+
+ParlAI is a python-based platform for enabling dialog AI research.
+
+Its goal is to provide researchers:
+
+1. A unified framework for sharing, training and testing dialog models
+
+2. Many popular datasets available all in one place, with the ability to multi-task over them
+
+3. Seamless integration of Amazon Mechanical Turk for data collection and human evaluation
+
+4. Integration with chat services like Facebook Messenger to connect agents with humans in a chat interface link: https://github.com/facebookresearch/ParlAI
+
+
