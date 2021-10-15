@@ -30,7 +30,9 @@ In here we can see the
 
 ## Running blenderbot 2.0 API 
 **Due to higher charge on the EC2 instance we had stopped the instance but you can run the Google colab notebook to get the same results**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdKC2mUZN9Ov6fmdoOYbLQH4MhKyKwYr?usp=sharing]
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdKC2mUZN9Ov6fmdoOYbLQH4MhKyKwYr?usp=sharing)
+
 
 Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is limited]
 
