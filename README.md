@@ -18,6 +18,8 @@
 
 <img src="/screenshots/cse.png" width="640" />
 
+**custom search engine for the blenderbot 2.0 retrievel based model**
+
 
 2. **The Reinforcement learning uses tensortrade API which is an opensource API for Deep Reinforcement learning simulation of trading environment, it uses Solana API from Serum, to get the real-time bid values of SOL-USDT and other variables, which includes the OHLCV historical data of SOL-USDT trade, portfolio of coins, reward and action schemes to build an environment and simulate the trade so that a trader can understand the risk before the actual trading. Like I said earlier, the Dash app URL then send back to the conversational AI API for better query response.**
 
