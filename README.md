@@ -38,7 +38,7 @@ In here we can see the
 
 
 ## Running blenderbot 2.0 API 
-**Due to higher charge on the EC2 instance we had stopped the instance but you can run the Google colab notebook to get the same results**
+**Due to higher charge on the EC2 instance we had stopped the instance, but you can run the Google colab notebook to get the same results**
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdKC2mUZN9Ov6fmdoOYbLQH4MhKyKwYr?usp=sharing)
 
@@ -47,7 +47,7 @@ In here we can see the
 ## GitHub Repo for cusotm deployment as a docker
 Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is limited]
 
-
+<img src="/screenshots/model_diagram.jpeg" width="640" />
 
 1.  The advantage of blender bot 2.0 is that, An own long-term memory and the ability to access the internet. 
 2.  It outperforms existing models in terms of, longer conversations over multiple sessions, and is more knowledgeable and has, more factual consistency, according to human evaluators. 
@@ -55,5 +55,5 @@ Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is lim
 4.   The bot uses a custom search engine for query and response, we can give specific URL to search, which includes, Solana, chainlink, or Raydium documentations, and also our dash app URL for, better insight into the simulated trading.
 5.    Users can ask anything that needs answers. The conversational history is saved, to further improve the response from the agent. Even if the user has minimum knowledge in trading, the bot response according to the knowledge of the user itself. 
 6.    Trading basic terminologies like ask, bid, spread, MACD, etc. The bot can understand very complex sentences, and the bot has a specific persona to answer them. The conversation can be carried for a long time without, any distraction from the context.
-
-The integrated AI system, that communicates between the trading simulation, results to a large internet search-based language model, which is very similar to GPT-3, but unlike GPT-3 with time frozen data, this conversational agent learns from the, trading data, and internet data. This will revolutionize the trading and helps new traders as well as, master traders to achieve great heights in their journey. 
+## How it helps the Solana and the crypto community
+The integrated AI system, that communicates between the trading simulation, results to a large internet search-based language model, which is very similar to GPT-3, but unlike GPT-3 with time frozen data, this conversational agent learns from the, trading data, and internet data. This will revolutionize the trading and helps new traders as well as, master traders to achieve great heights in their journey. The AI mentor will help you to make better decision for Solana network, since we only focused on the historical data of SOL and its supporting documents as URL.
