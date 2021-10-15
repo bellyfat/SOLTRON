@@ -2,3 +2,5 @@ tensortrade
 pandas
 numpy
 dash
+plotly
+matplotlib
