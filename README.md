@@ -96,4 +96,10 @@ Its goal is to provide researchers:
 
 4. Integration with chat services like Facebook Messenger to connect agents with humans in a chat interface link: https://github.com/facebookresearch/ParlAI
 
+# Reference
+1. https://github.com/tensortrade-org/tensortrade
+2. https://parl.ai/docs/zoo.html
+3. https://github.com/facebookresearch/ParlAI
+4. https://parl.ai/projects/blenderbot2/
+
 
