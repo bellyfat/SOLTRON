@@ -1,0 +1,4 @@
+tensortrade
+pandas
+numpy
+dash
