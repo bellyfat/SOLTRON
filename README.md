@@ -18,7 +18,7 @@
 
 ## Running the RL
 Install Anaconda python : https://www.anaconda.com/products/individual
-if your system has GPU support run
+**if your system has GPU support run**
 
 ```sh
 conda install -c anaconda tensorflow-gpu
