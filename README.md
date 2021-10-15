@@ -2,8 +2,8 @@
 ## What is SOLTRON
 **SOLTRON is an Artificial General Intelligence, build on top of SOLANA and project serum**
 
-SOLTRON is an Artificial General Intelligence, build on top of SOLANA and project serum. It consists of two integrated solutions.
-  <img src="/screenshots/1.png" width="480" />
+It consists of two integrated solutions.
+<img src="/screenshots/1.png" width="480" />
   
 1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
 
