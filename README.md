@@ -105,16 +105,16 @@ The integrated AI system, that communicates between the trading simulation, resu
 
 1. The project started as a 2 year-long extensive R&D project on advanced conversational AI and RL agent in collaboration with Government College Of Engineering Kannur. First introduced in Farmer's Assist, an AI recommendation engine from my deep tech agriculture startup **deepflow technologies Pvt. ltd.**(https://www.deepflow.in/). The company was **one among the top 25 teams** in **Cisco Agri challenge**, which is a farmer-centric innovation challenge with 10 Mn lives potential, with a prize pool of 2 Cr and potential investment. **Link** :https://prize.thenudge.org/semi-finalists. Our team is also featured in YourStory. **Link**: https://yourstory.com/2021/09/thenudge-foundation-cisco-entrepreneurs-increase-farmers-innovative-solutions/amp. We are currently working on Deep Reinforcement Learning integration to Language model for policy understanding and performance. And also in The New Indian Express. **Link**:https://www.edexlive.com/news/2021/jul/27/this-group-of-four-kannur-youngsters-are-developing-cyber-solutions-for-the-modern-day-22843.html
 
-<img src="/screenshots/featured.jpeg" width="640" />
+<img src="/screenshots/featured.jpeg" width="480" />
 
 
-<img src="/screenshots/indian_express.png" width="640" />
+<img src="/screenshots/indian_express.png" width="480" />
 
 2. Our team also won 3rd prize in the OpenCV AI competition 2021 at the regional level, which is an international AI competition celebrating OpenCV's 20th anniversary. we also among the 
 World's biggest spatial AI competition with Prizes worth $400K and Worldwide competition with global and regional winners. We had the latest implementation of our AI agent on the AI quadruped agriculture Robot API. Winner announcement Link: https://opencv.org/opencv-ai-competition-2021/. The AI robot also won in the Agri India Hackathon organized by the Government of India and Pusa Krishi and we were one among the 11 startups in their 2021 cohort. **Link**:https://blog.mygov.in/winner-announcement-of-agri-india-hackathon/
 Github Link to Agri robot: click [here](https://github.com/kishorkuttan/AI-Quadruped-Robot-For-Agriculture).
 
-<img src="/screenshots/hackathon.png" width="640" />
+<img src="/screenshots/hackathon.png" width="480" />
 
 3. My second deep tech startup is called Convai Innovations Pvt. Ltd. extensively focuses on conversational AI and blockchain in general. The startup has released its blind navigation app called depthnavai, available on the play store. https://play.google.com/store/apps/details?id=com.convaiinnovations.ml.DepthNavAI.
 Which is an AI app for the visually impaired or blind, for navigation, light detection, face attribute recognition, and text recognition. We are working on implementing our integrated AI agent, which we had developed for this hackathon into the app, which means that the technology will benefit a wonderful community. The app already has 100+ downloads within a week. 
