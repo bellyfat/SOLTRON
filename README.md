@@ -116,7 +116,7 @@ Github Link to Agri robot: click [here](https://github.com/kishorkuttan/AI-Quadr
 <img src="/screenshots/hackathon.png" width="480" />
 
 3. My second deep tech startup is called **Convai Innovations Pvt. Ltd.** extensively focuses on **conversational AI and blockchain** in general. The startup has released its blind navigation app called depthnavai, available on the play store. https://play.google.com/store/apps/details?id=com.convaiinnovations.ml.DepthNavAI.
-Which is an AI app for the visually impaired or blind, for navigation, light detection, face attribute recognition, and text recognition. We are working on implementing our integrated AI agent, which we had developed for this hackathon into the app, which means that the solana network or blockchain technology will benefit a wonderful community. The app already has 100+ downloads within a week. Both of theses startups are recognized by startup India with DPIIT certificate.
+Which is an AI app for the visually impaired or blind, for navigation, light detection, face attribute recognition, and text recognition. We are working on implementing our integrated AI agent, which we had developed for this hackathon into the app, which means that the solana network or blockchain technology will benefit a wonderful community. The app already has 100+ downloads within a week. Both of theses startups are recognized by startup India with DPIIT certificate. Along with Dr. Anjali MBBS, we are trying to revolutionize the industry with blockchain and AI.
 
 Website: https://convaiinnovations.com/
 
