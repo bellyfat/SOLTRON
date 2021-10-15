@@ -32,12 +32,9 @@ Install Anaconda python : https://www.anaconda.com/products/individual
 RUN
 
 ```sh
-conda install -c anaconda tensorflow-gpu
-```
-
-```sh
 conda create -n soltron pip python=3.7
 conda activate soltron
+conda install -c anaconda tensorflow-gpu
 pip install -r requirements.txt
 python rl_simulation.py
 ```
