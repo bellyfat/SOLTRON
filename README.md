@@ -17,7 +17,10 @@
 
 
 ## Running the RL
+Install Anaconda python : https://www.anaconda.com/products/individual
 ```sh
+conda create -n soltron pip python=3.7
+conda activate soltron
 pip install -r requirements.txt
 python rl_simulation.py
 ```
