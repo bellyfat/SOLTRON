@@ -13,11 +13,6 @@
 
 <img src="/screenshots/trade_env.png" width="640" />
 
-<img src="/screenshots/main_api.png" width="640" />
-
-
-<img src="/screenshots/main_feed.png" width="640" />
-
 
 
 
@@ -26,6 +21,12 @@
 pip install -r requirements.txt
 !python rl_simulation.py
 ```
+
+<img src="/screenshots/main_api.png" width="640" />
+
+
+<img src="/screenshots/main_feed.png" width="640" />
+
 ![alt text](https://github.com/kishorkuttan/SOLTRON/blob/master/screenshots/drl.png)
 
 In here we can see the
