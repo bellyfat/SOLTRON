@@ -82,7 +82,7 @@ Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is lim
 The integrated AI system, that communicates between the trading simulation, results to a large internet search-based language model, which is very similar to GPT-3, but unlike GPT-3 with time frozen data, this conversational agent learns from the, trading data, and internet data. This will revolutionize the trading and helps new traders as well as, master traders to achieve great heights in their journey. The AI mentor will help you to make better decision for Solana network, since we only focused on the historical data of SOL and its supporting documents as URL.
 
 ## What is  ParlAI
-<img src="https://parl.ai/static/img/icon.png" width="640" />
+<img src="https://parl.ai/static/img/icon.png" width="480" />
 
 ParlAI is a python-based platform for enabling dialog AI research.
 
