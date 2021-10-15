@@ -6,3 +6,5 @@ dash
 plotly
 matplotlib
 ipywidgets==7.6.5
+wget
+flask
