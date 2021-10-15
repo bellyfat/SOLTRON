@@ -1,6 +1,8 @@
+pyserum
 tensortrade
 pandas
 numpy
 dash
 plotly
 matplotlib
+ipywidgets==7.6.5
