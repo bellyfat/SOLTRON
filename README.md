@@ -86,7 +86,7 @@ python app.py
 
 ## GitHub Repo for custom deployment as a docker
 
-Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The repo is private and access is limited to Hackathon judges. Can use the repo after accepting invite as collaborators]
+Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The repo is private and access is limited to Hackathon judges.]
 
 <img src="/screenshots/model_diagram.jpeg" width="640" />
 
