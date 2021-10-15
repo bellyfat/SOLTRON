@@ -84,7 +84,7 @@ python app.py
 
 
 
-## GitHub Repo for cusotm deployment as a docker
+## GitHub Repo for custom deployment as a docker
 
 Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The repo is private and access is limited to Hackathon judges. Can use the repo after accepting invite as collaborators]
 
