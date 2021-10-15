@@ -1,8 +1,10 @@
 # SOLTRON
 ## What is SOLTRON
 **SOLTRON is an Artificial General Intelligence, build on top of SOLANA and project serum**
+
 <img src="/screenshots/main.png" width="640" />
-It consists of two integrated solutions.
+
+### It consists of two integrated solutions.
   
 1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
 <img src="/screenshots/1.png" width="640" />
@@ -25,6 +27,12 @@ In here we can see the
 3. After the training or simulation, we can see the overall performance of the trade. 
 
 
+
+## Running blenderbot 2.0 API 
+**Due to higher charge on the EC2 instance we had stopped the instance but you can run the Google colab notebook to get the same results**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hdKC2mUZN9Ov6fmdoOYbLQH4MhKyKwYr?usp=sharing]
+
+Go to this [link](https://github.com/kishorkuttan/parlai) [Nb: The access is limited]
 
 
 
