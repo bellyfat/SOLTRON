@@ -39,14 +39,8 @@ def extract_bid():
     # Load the given market
     market = Market.load(cc, market_address)
     asks = market.load_asks()
-    # Show all current ask order
-
-
-
     # Show all current bid order
-
     raw_bids = market.load_bids()
-
     tmp = pd.DataFrame()
     bids = []
     for bid in raw_bids:
