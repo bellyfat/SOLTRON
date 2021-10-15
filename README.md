@@ -19,7 +19,7 @@
 ## Running the RL
 ```sh
 pip install -r requirements.txt
-!python rl_simulation.py
+python rl_simulation.py
 ```
 The rectangle portion shows the usage of PySerum API from SERUM that uses SOLANA and SERUM DEX. The real time data is send as a data feeder to the environment.
 
