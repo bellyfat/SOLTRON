@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python rl_simulation.py
 ```
 ## Serum API usage
-We first convert the the data of SOL-USDT from **Pyserum** which is a client library for interacting with the Project Serum DEX, to **OHLCV**. We made a lambda function to do the job for us. When ever a GET request implemented on the API gateway, the lambda will trigger and upload the csv to AWS S3. Which then used by the above script.
+We first convert the the data of SOL-USDT from **Pyserum** which is a client library for interacting with the Project Serum DEX, to **OHLCV** with the help of some additional python API. We made a lambda function to do the job for us. When ever a GET request implemented on the API gateway, the lambda will trigger and upload the csv to AWS S3. Which then used by the above script.
 
 <img src="/screenshots/lambda_function_api.png" width="640" />
 
