@@ -4,7 +4,7 @@
 
 ## What is SOLTRON
 
-**SOLTRON is an Artificial General Intelligence, build on top of SOLANA and Project Serum**
+**SOLANA ULTRON is an Artificial General Intelligence with an aim to serve humanity to trade better and learn better, build on top of SOLANA and Project Serum**
 
 ### Utron Vs SOLTRON
 
