@@ -12,7 +12,7 @@
 
 <img src="/screenshots/main.png" width="640" />
 
-### It consists of two integrated solutions.
+ ### It consists of an integrated solution.
   
 1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. Unlike time freezed model such as GPT-3 it has dynamic access to the whole world thrugh internet We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
 
