@@ -18,7 +18,11 @@
 
 <img src="/screenshots/1.png" width="640" />
 
+<img src="/screenshots/agent1.png" width="640" />
+
 <img src="/screenshots/agent2.png" width="640" />
+
+<img src="/screenshots/agent3.png" width="640" />
 
 <img src="/screenshots/cse.png" width="640" />
 
@@ -72,8 +76,6 @@ In here we can see the
 
 <img src="/screenshots/colab.png" width="640" />
 
-<img src="/screenshots/agent1.png" width="640" />
-
 App link Link : http://ec2-13-234-110-244.ap-south-1.compute.amazonaws.com/
 
 I may stop the AWS EC2 instance due to the instance charge- Mail me if needed to test
@@ -84,7 +86,7 @@ I may stop the AWS EC2 instance due to the instance charge- Mail me if needed to
 python app.py
 ```
 
-<img src="/screenshots/agent3.png" width="640" />
+
 
 
 
