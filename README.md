@@ -6,11 +6,15 @@
 
 **SOLTRON is an Artificial General Intelligence, build on top of SOLANA and Project Serum**
 
+### Utron Vs SOLTRON
+
+<img src="/screenshots/ultron_vs_soltron.png" width="640" />
+
 <img src="/screenshots/main.png" width="640" />
 
 ### It consists of two integrated solutions.
   
-1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
+1. **The first one is an empathetic conversational AI, to answer any query that a user has, regarding blockchain, trading, or crypto in general, the other one is a Deep Reinforcement learning-based simulation for trading. The trading results are displayed as a dash app for the user, and the URL for the dash app can be fed to the conversational AI to get more insight into users' queries. The conversational AI uses a 400 million parameter language model, based on API, with internet search capability from Facebook AI Research. Unlike time freezed model such as GPT-3 it has dynamic access to the whole world thrugh internet We deployed the language model as, world's first API which has single world, single AI agent, and multiple human agents. We used docker containers, inside the AWS P2.8xlarge instance, which uses 8 Tesla K80 GPU, in parallel processing to power the inference.**
 
 <img src="/screenshots/1.png" width="640" />
 
@@ -103,7 +107,7 @@ The integrated AI system, that communicates between the trading simulation, resu
 
 # Credibility
 
-1. The project started as a 2 year-long extensive R&D project on advanced conversational AI and RL agent in collaboration with Government College Of Engineering Kannur. First introduced in Farmer's Assist, an AI recommendation engine from my deep tech agriculture startup **deepflow technologies Pvt. ltd.**(https://www.deepflow.in/). The company was **one among the top 25 teams** in **Cisco Agri challenge**, which is a farmer-centric innovation challenge with 10 Mn lives potential, with a prize pool of 2 Cr and potential investment. **Link** :https://prize.thenudge.org/semi-finalists. Our team is also featured in YourStory. **Link**: https://yourstory.com/2021/09/thenudge-foundation-cisco-entrepreneurs-increase-farmers-innovative-solutions/amp, and also in The New Indian Express. **Link**:https://www.edexlive.com/news/2021/jul/27/this-group-of-four-kannur-youngsters-are-developing-cyber-solutions-for-the-modern-day-22843.html. We are currently working on Deep Reinforcement Learning integration to Language model for policy understanding and performance. 
+1. The project started as a 2 year-long extensive R&D project on advanced conversational AI and RL agent in collaboration with Government College Of Engineering Kannur. First introduced in Farmer's Assist, an AI recommendation engine from my deep tech agriculture startup **deepflow technologies Pvt. ltd.**(https://www.deepflow.in/). The company was **one among the top 25 teams** in **Cisco Agri challenge**, which is a farmer-centric innovation challenge with 10 Mn lives potential, with a prize pool of 2 Cr and potential investment. **Link** :https://prize.thenudge.org/semi-finalists. Our team is also featured in YourStory. **Link**: https://yourstory.com/2021/09/thenudge-foundation-cisco-entrepreneurs-increase-farmers-innovative-solutions/amp, and also in The New Indian Express. **Link**:https://www.edexlive.com/news/2021/jul/27/this-group-of-four-kannur-youngsters-are-developing-cyber-solutions-for-the-modern-day-22843.html. We are currently working on Deep Reinforcement Learning integration to Language model for better recommneddation engine
 
 <img src="/screenshots/featured.jpeg" width="480" />
 
@@ -115,7 +119,7 @@ Github Link to Agri robot: click [here](https://github.com/kishorkuttan/AI-Quadr
 
 <img src="/screenshots/hackathon.png" width="480" />
 
-3. My second deep tech startup is called **Convai Innovations Pvt. Ltd.** extensively focuses on **conversational AI and blockchain** in general. The startup has released its blind navigation app called depthnavai, available on the play store. https://play.google.com/store/apps/details?id=com.convaiinnovations.ml.DepthNavAI.
+3. Our second deep tech startup is called **Convai Innovations Pvt. Ltd.** extensively focuses on **conversational AI and blockchain** in general. The startup has released its blind navigation app called depthnavai, available on the play store. https://play.google.com/store/apps/details?id=com.convaiinnovations.ml.DepthNavAI.
 Which is an AI app for the visually impaired or blind, for navigation, light detection, face attribute recognition, and text recognition. We are working on implementing our integrated AI agent, which we had developed for this hackathon into the app, which means that the solana network or blockchain technology will benefit a wonderful community. The app already has 100+ downloads within a week. Both of theses startups are recognized by startup India with DPIIT certificate. Along with Dr. Anjali MBBS, we are trying to revolutionize the industry with blockchain and AI.
 
 Website: https://convaiinnovations.com/
